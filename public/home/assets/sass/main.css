@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #1a1e21;
+}
+
+.section-title h2{
+  text-shadow: 1px 1px 2px #4444;
+}
+
+/* Header css */
+
+nav{
+    background: #fff;
+    box-shadow: 0px 0px 5px #4444;
+  }
+a.navbar-brand img{
+    height: 40px;
+}
+
+form.search-form{
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+}
+
+form.search-form input{
+  border-radius: 50px;
+}
+
+form.search-form button.search-btn{
+  border-radius: 50px;
+  padding: 7px 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--bs-orange);
+  border: 0;
+  color: #fff;
+}
+
+ul.action-menu .nav-item .nav-link{
+  margin: 0px 20px;
+  font-size: 18px;
+}
+
+
+/* End Header css */
+
+/* Slider */
+section.slider{
+  background: #f7f7f7f7;
+  height: 566px;
+  padding-top: 64px;
+}
+
+section.slider .slider-text h2{
+  font-size: 68px;
+  font-weight: 600;
+}
+section.slider .slider-text p{
+  font-size: 16px;
+  color: #4a4949cc;
+}
+section.slider .slider-text .btn-order-now{
+  font-size: 18px;
+  background: #D12053;
+  padding: 10px 49px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+
+section.slider .slider-text .btn-order-now:hover{
+  box-shadow: 2px 2px 5px rgba(255, 153, 68, 0.51);
+}
+
+section.slider .slider-text h2 span.ligthen{
+  color: #D12053;
+}
+
+section.slider .slider-img img{
+  height: 400px;
+  object-fit: contain;
+}
+
+/* End Slider */
+
+/* Category Product */
+section.category-product{
+  padding: 55px 0px;
+}
+section.category-product .card{
+  background: #f7f7f7;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+section.category-product .card .card-body img{
+  height: 150px;
+  object-fit: contain;
+  transition: .6s;
+}
+
+section.category-product .card:hover .card-body img{
+  transform: scale(1.2);
+}
+
+section.category-product .card .card-body h4{
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #4444;
+  margin: 27px 0px;
+}
+section.category-product .card .card-body a.view-all-btn{
+  background: #D12053;
+  padding: 7px 30px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+
+/* End Category Product */
+
+/* Banner */
+section.banner{
+  padding: 20px 0px;
+}
+section.banner .item{
+  background: #ccc;
+  padding: 20px;
+}
+
+section.banner .item .text{
+  /* width: 209px; */
+}
+
+section.banner .item .text h2{
+  font-size: 36px;
+  line-height: 51px;
+  text-shadow: 1px 1px 1px #4444;
+}
+
+section.banner .item .text a.order-now-btn{
+  background: #D12053;
+  padding: 8px 29px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+section.banner .item img{
+  object-fit: cover;
+  height: 200px;
+}
+
+
+/* End Banner */
+
+/* Latest Product */
+
+section.latest-product{
+  padding: 33px 0px;
+  background: #f7f7f7f7;
+}
+
+section.latest-product .card .card-body img{
+  height: 160px;
+  transition: .6s;
+}
+
+section.latest-product .card .card-body h2{
+  font-size: 18px;
+  padding: 15px 0px;
+}
+
+section.latest-product .card .card-body .price{
+  font-size: 24px;
+  padding: 10px 0px;
+}
+
+section.latest-product .card .card-body a.add-to-cart-btn{
+  border: 1px solid #D12053;
+  padding:7px 23px;
+  color: #D12053;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: .6s;
+}
+
+section.latest-product .card .card-body a.add-to-cart-btn:hover{
+  background: #D12053;
+  color: #fff;
+}
+section.latest-product .card:hover .card-body img{
+  transform: scale(1.2);
+}
+/* End Latest Product */
+
+/* Promo Banner */
+section.banner h1.promo-title{
+  font-size: 53px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 321px;
+  font-weight: 700;
+  color: #198754;
+}
+/* End Promo Banner */
+
+/* Footer */
+ul.footer-list{
+  margin: 0;
+  padding: 0px 20px;
+}
+
+ul.footer-list li a{
+  transition: .6s;
+}
+
+ul.footer-list li a:hover{
+  color: #0f5132;
+  padding-left: 7px;
+}
+/* End Footer */
+
+.loading{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #fdfdfd;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
